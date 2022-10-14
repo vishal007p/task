@@ -1,0 +1,399 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  width: 100vw;
+  height: 100%;
+  overflow-x: hidden ;
+}
+nav {
+  width: 100%;
+  height: 5.5rem;
+  display: flex;
+  background-color: #0D100D;
+  position: fixed;
+
+}
+
+.logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+.logosag {
+  fill: white;
+}
+
+.logosag:hover {
+  fill: red;
+  animation-duration: 2s;
+}
+
+.menu {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 1.3rem;
+
+}
+
+.menu li {
+  list-style: none;
+  color: white;
+  padding-right: 3rem;
+
+
+}
+
+.menu li:hover {
+  color: red;
+  cursor: pointer;
+}
+
+
+
+/* ------banner----- */
+
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("banner.webp");
+
+}
+
+.banner-img{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.banner-img img{
+  margin-top: 5.5rem;
+}
+.banner_heading{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner_heading h1{
+  color: white;
+  font-size:7rem;
+  font-weight: 600;
+}
+
+.typing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#feature-text {
+  margin-left: 8px;
+}
+.input-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 20px;
+  background-color: white;
+  margin-left: 8px;
+  animation: blink .6s linear infinite alternate;
+}
+
+/* ------our comatct---- */
+
+
+.our_appication{
+  width: 100%;
+  background-color: #0D100D;
+
+}
+.our_appication .our_banner{
+  width: 100%;
+  height: 700px;
+}
+.contact{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cu_div{
+  background-color: rgb(104, 255, 91);
+  border-radius: 50%;
+  height: 13.75rem;
+  width: 13.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:first baseline;
+  padding: 3rem 0px 3rem 0px;
+}
+.cu_div span{
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+   
+}
+.contact .con_1 img{
+  width: 38rem;
+  height: 16rem;
+}
+
+.contact .con_2 img{
+  height: 18rem;
+  width: 18rem;
+}
+.con_2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact .con_3 img{
+width: 37rem;
+height: 24rem;
+}
+.our_appication .contact .con_2 .cu_div h1{
+  font-weight: 300;
+  color: black ;
+  font-size: 3rem;
+}
+
+
+
+
+/* -----benefite---- */
+
+
+.benefites{
+  width: 100%;
+  position: relative;
+  top: 0;
+  padding: 5rem 0rem 2rem 0rem;
+  height: 1200px;
+  background-color: white;
+
+}
+.benefites .benefites_heading{
+  position: sticky;
+  width: 50%;
+  margin: auto;
+}
+.benefites .benefites_heading h1{
+  font-size: 5rem;
+  text-align: center;
+   
+}
+.benefites .benefites_heading p{
+  padding: 20px 5rem 20rem 5rem;
+  text-align: center;
+  font-weight: 500;
+  font-size:1.5rem ;
+}
+
+
+
+
+@keyframes blink {
+0% {opacity: 1;}
+40% {opacity: 1;}
+60% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+
+
+.booting{
+  background-color: #0D100D;
+  width: 100%;
+  padding: 60px 150px 60px 150px;
+  margin: auto;
+   
+  
+}
+.booting h1 {
+  color: white;
+
+}
+.booting_heading {
+  width: 100%;
+  display: flex;
+  margin-top: 40px ;
+  
+  
+}
+.booting_heading .booting-item .heading_icon{
+  width: 100%;
+  display: flex;
+}
+.booting_heading .booting-item .heading_icon p{
+  color: white;
+  font-size: 30px;
+}
+.booting_heading .booting-item .heading_icon .curved-arrow {
+  width: 150px;
+  height: 150px;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+.booting-item{
+  width: 60%;
+}
+.booting-img{
+  width: 30%;
+ 
+}
+
+.diccoverbtn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.diccoverbtn button{
+  background-color: #68ff5b;
+  width: 250px;
+  height: 60px;
+  border-radius: 70px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 16px;
+}
+
+
+.booting-img img{
+  width: 294px;
+  height: 611px;
+  transform: rotate(-20deg);
+  margin-left: 80px;
+}
+
+.icon{
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.con_2 .cu_div .right-arroe{
+  fill: white;
+width: 50px;
+height: 50pz;
+}
+
+.serious{
+  background-color: white;
+  width: 100%;
+  padding: 100px 200px 100px 200px;
+}
+.serious span{
+  color: black;
+  font-weight: 300;
+  
+}
+.serious h1{
+  padding: 30px 0px 50px 0px;
+  color: black;
+  font-weight: 400;
+  font-size: 40px;
+}
+.serious .contactbtn{
+  cursor: pointer;
+  color:white;
+  background-color: black;
+  border: none;
+  border-radius: 70px;
+  width: 200px;
+  height: 50px;
+}
+/* -----footer------- */
+
+
+footer{
+  position: sticky;
+  bottom: -50px;
+  width: 100%;
+  height: 600px;
+  background-color: #0D100D;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  padding-top: 50px;
+  z-index: -5;
+}
+
+
+.join_us li{
+color: white;
+list-style: none;
+padding-bottom: 30px;
+font-weight: bold;
+font-size: 22px;
+}
+.social_media .likdin .social_media_btn{
+  margin-bottom: 70px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background:none;
+  border: 1px solid white;
+  color: white;
+  font-size: 1rem;
+}
+
+.footer_logo_div h4{
+  color: white;
+  line-height: 25px;
+  margin-top: 40px;
+}
+
+.address{
+  width: 100%;
+margin-top: 30px;
+  display: flex;
+  margin-bottom: 20px;
+}
+.address_1{
+  width: 50%;
+}
+.address_1 h6{
+  color: white;
+  font-size: 16px;
+  line-height: 25px;
+  padding-right: 60px;
+}
+.address .address_1 .download-button__icon {
+  border: 1px solid white;
+ font-size: 16px;
+ border-radius: 50%;
+ padding: 10px 10px 10px 10px;
+ 
+  
+}
+.address .address_1 .download-button__icon path{
+  fill: white;
+  font-size: 13px;
+  
+
+}
+.address .address_1 h1{
+  color: white;
+  font-size: 16px;
+  padding-left: 20px;
+}
+.address .address_1 .playstro{
+  display: flex;
+  align-items: center;
+}
